@@ -1,0 +1,29 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^39.1.1",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "electron-store": "^11.0.2",
+    "pikaday": "^1.8.2"
+  },
+  "build": {
+    "appId": "com.jexxy.todoapp",
+    "productName": "ToDoApp",
+    "files": [
+      "*",
+      "main.js",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable"
+    }
+  }
+}

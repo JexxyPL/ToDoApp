@@ -1,0 +1,4 @@
+src/node_modules/
+Main/ToDoApp-win32-x64/
+*.exe
+src/dist/
